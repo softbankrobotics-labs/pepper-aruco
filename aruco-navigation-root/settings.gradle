@@ -1,0 +1,1 @@
+include ':app', ':pepperaruco', ':openCVLibrary347dev'
