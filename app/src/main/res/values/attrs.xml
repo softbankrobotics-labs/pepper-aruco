@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FrameView">
+    <attr name="viewType" format="enum">
+        <enum name="RIGHT" value="0"/>
+        <enum name="TOP" value="1"/>
+        <enum name="BACK" value="2"/>
+    </attr>
+</declare-styleable>
+</resources>

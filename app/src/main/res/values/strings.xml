@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">app</string>
+
+    <!-- Tutorial names -->
+    <string name="detect_aruco">Detect Aruco markers</string>
+    <string name="look_for_aruco">Look for Aruco markers, look at &amp; go to them</string>
+    <string name="engage_and_return_to_marker">Engage &amp; Return to Aruco marker</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_close_button">Close button</string>
+    <string name="content_description_human_icon">Human icon</string>
+    <string name="content_description_robot_icon">Robot icon</string>
+    <string name="content_description_back_button">Back button</string>
+    <string name="SampleMarkerNumber">01</string>
+    <string name="look_at_marker">Look at marker</string>
+    <string name="go_to_marker">Go to marker</string>
+    <string name="camera_image">Camera image</string>
+    <string name="from_right_side_of_pepper">From Right Side of Pepper</string>
+    <string name="from_top_of_pepper">From Top of Pepper</string>
+    <string name="from_back_of_pepper">From Back of Pepper</string>
+    <string name="please_wait">Please wait</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="16dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+    <FrameLayout
+            android:background="#FF0000"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <ImageView
+                android:contentDescription="@string/camera_image"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:id="@+id/markerPhoto"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="16dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/markerId"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_toEndOf="@+id/markerPhoto"
+                android:layout_centerVertical="true"
+                android:textSize="30sp"
+                android:text="@string/SampleMarkerNumber"/>
+
+        <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical">
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/lookAt"
+                    android:background="@android:color/holo_blue_bright"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:text="@string/look_at_marker"/>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/goTo"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textColor="@android:color/white"
+                    android:text="@string/go_to_marker"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
