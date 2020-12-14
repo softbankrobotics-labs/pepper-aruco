@@ -100,6 +100,7 @@ The markers have an orientation. In this library, we define the Aruco axis as fo
 
 <div align="center">
     <img src="doc/img/marker_frame.jpg" width="200" />
+
 </div>
 
 We chose this coordinate system to be consistent with Pepper QiSDK coordinate system. Beware however as OpenCV uses another coordinate system on material you'll find out there on the internet.
@@ -129,26 +130,10 @@ If you want you can also directly print the following markers (click on each ima
 
 ### 5.1. Add the library as a dependency
 
-You can use Jitpack (https://jitpack.io/) to add the library as a gradle dependency.
+[Follow these instructions](https://jitpack.io/#softbankrobotics-labs/pepper-aruco)
 
-**Step 1)** add JitPack repository to your build file:
+Make sure to replace 'Tag' by the number of the version of the library you want to use, or by 'master-SNAPSHOT' to use the master branch.
 
-Add it in your root build.gradle at the end of repositories:
-
-```
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-
-**Step 2)** Add the dependency on the Aruco navigation lib to your app build.gradle in the dependencies section:
-
-	dependencies {
-		implementation 'com.github.softbankrobotics-labs:pepper-aruco:master-SNAPSHOT'
-	}
 
 ### 5.2. Add OpenCV libraries
 
@@ -158,7 +143,7 @@ You have two options to add the OpenCV libraries to your project:
 
 With this method you directly add the libraries to your apk. The disadvantage of this method is that your apk will become very big.
 
-Copy the .so files you will find in the folder [aruco-navigation-root/app/src/main/jniLibs](aruco-navigation-root/app/src/main/jniLibs) into your own src/main folder.
+Copy the .so files you will find in the folder [pepperaruco/src/main/jniLibs](pepperaruco/src/main/jniLibs) into your own src/main folder.
 Android studio will automatically find and include these libraries into your apk.
 
 
