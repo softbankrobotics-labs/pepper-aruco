@@ -77,7 +77,7 @@ This Android library will help you:
 
 This video was filmed at SoftBank Robotics Europe, and shows Pepper detecting and navigating toward aruco marker placed in the SBRE Showroom.
 
-[<div align="center"><img src="doc/img/video.jpg" width="400" /></div>](https://www.youtube.com/watch?v=YwWUTFxySWU)
+[<div align="center"><img src="doc/img/video.jpg" width="400" /></div>](https://www.youtube.com/watch?v=8Y66ZDJaJVc)
 
 ## 2. Version History
 
